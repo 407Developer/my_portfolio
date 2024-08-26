@@ -448,6 +448,7 @@ h6 {
   .mobile-nav-active .navmenu>ul {
     display: block;
   }
+
 }
 
 /*--------------------------------------------------------------
@@ -728,6 +729,10 @@ section,
 
   .hero p {
     font-size: 20px;
+  }
+  .hero {
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
