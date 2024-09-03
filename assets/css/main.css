@@ -819,7 +819,7 @@ section,
     justify-content: center;
     align-items: center;
     gap: 15px;
-    height: 100vh;
+    height: 90vh;
   }
 
   #hero .colorModeContainer {
@@ -843,6 +843,15 @@ section,
     width: 55%;
   }
 
+  #hero .info button {
+    background: none;
+    border: var(--accent-color) solid 1px !important;
+    color: var(--accent-color);
+    font-weight: normal;
+    font-size: small;
+    border: none;
+    padding: 9px;
+  }
   #hero .heroImage {
     border-radius: 50%;
     max-width: 206px;
